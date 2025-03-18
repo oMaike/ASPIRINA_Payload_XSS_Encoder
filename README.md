@@ -39,12 +39,11 @@ Exemplo: <script>alert('XSS')</script> → \x3c\x73\x63\x72\x69\x70\x74\x3e\x61\
 
 Execute o programa:
 
-Salve o código em um arquivo, por exemplo, encoder.py.
+Salve o código em um arquivo, por exemplo, encoder.py
 
 Execute o arquivo com Python:
 
 bash
-Copy
 python encoder.py
 Insira o payload:
 
@@ -52,11 +51,11 @@ O programa solicitará que você insira um payload XSS (ou qualquer texto).
 
 Exemplo de entrada:
 
-Copy
 <script>alert('XSS')</script>
 Escolha a codificação:
 
-O programa exibirá uma lista de opções de codificação. Digite o número correspondente à técnica desejada.
+O programa exibirá uma lista de opções de codificação.
+Digite o número correspondente à técnica desejada.
 
 Veja o resultado:
 
