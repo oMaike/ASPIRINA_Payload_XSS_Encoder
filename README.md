@@ -18,19 +18,23 @@ O programa suporta as seguintes técnicas de codificação:
 
 Base64: Codifica o texto em Base64.
 
-Exemplo: <script>alert('XSS')</script> → PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4=
+Exemplo: <script>alert('XSS')</script> → 
+PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4=
 
 URL Encoding: Codifica o texto para ser usado em URLs.
 
-Exemplo: <script>alert('XSS')</script> → %3Cscript%3Ealert%28%27XSS%27%29%3C%2Fscript%3E
+Exemplo: <script>alert('XSS')</script> → 
+%3Cscript%3Ealert%28%27XSS%27%29%3C%2Fscript%3E
 
 HTML Entities: Converte caracteres especiais em entidades HTML.
 
-Exemplo: <script>alert('XSS')</script> → &lt;script&gt;alert(&#x27;XSS&#x27;)&lt;/script&gt;
+Exemplo: <script>alert('XSS')</script> → 
+&lt;script&gt;alert(&#x27;XSS&#x27;)&lt;/script&gt;
 
 UTF-8 (Hexadecimal): Converte o texto para sua representação hexadecimal em UTF-8.
 
-Exemplo: <script>alert('XSS')</script> → 3c7363726970743e616c657274282758535327293c2f7363726970743e
+Exemplo: <script>alert('XSS')</script> → 
+3c7363726970743e616c657274282758535327293c2f7363726970743e
 
 Unicode Encoding: Converte cada caractere para seu valor Unicode.
 
@@ -48,8 +52,9 @@ Salve o código em um arquivo, por exemplo, encoder.py
 
 Execute o arquivo com Python:
 
-bash
+# bash
 python encoder.py
+
 Insira o payload:
 
 O programa solicitará que você insira um payload XSS (ou qualquer texto).
@@ -78,15 +83,19 @@ Escolha o tipo de codificação:
 4 - UTF-8 (Hexadecimal)
 5 - Unicode Encoding
 6 - Hex Encoding
+
 Digite o número da opção desejada: 1
 
 Saída:
+
 Resultado em Base64: PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4=
 
 # Requisitos
+
 Python 3.x
 
 # Aplicações
+
 Este programa pode ser útil para:
 
 Testar técnicas de bypass de filtros XSS.
