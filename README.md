@@ -1,4 +1,7 @@
 # ASPIRINA
+[![Twitter](https://img.shields.io/twitter/url?logo=twitter&style=social&url=https%3A%2F%2Ftwitter.com%2FGhcjm60SUve6BMa)](https://twitter.com/Ghcjm60SUve6BMa)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=social&logo=linkedin)](https://www.linkedin.com/in/maike-gabriel-rosa-876673282)
+
 
 ![Image](https://github.com/user-attachments/assets/8f8fd99a-c1d5-420f-908a-bbb8e769d2b0)
 
