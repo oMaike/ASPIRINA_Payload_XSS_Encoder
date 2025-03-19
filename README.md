@@ -1,4 +1,12 @@
 # Payload-Encoder
+
+div align="center"
+img src="![Image](https://github.com/user-attachments/assets/8f8fd99a-c1d5-420f-908a-bbb8e769d2b0)" width="0px" /
+/div
+
+
+
+
 Codificador de Payloads XSS
 
 Este é um programa em Python que permite codificar payloads XSS (ou qualquer texto) em diferentes formatos de encoding, como Base64, URL Encoding, HTML Entities, UTF-8 (Hexadecimal), Unicode Encoding e Hex Encoding. Ele foi projetado para ajudar a testar e entender como diferentes técnicas de codificação podem ser usadas em cenários de segurança, como bypass de filtros XSS.
