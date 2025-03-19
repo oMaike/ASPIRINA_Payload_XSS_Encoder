@@ -1,6 +1,32 @@
 import base64
 import urllib.parse
 import html
+from colorama import Fore, Style  # Importa a biblioteca para cores
+
+def exibir_menu():
+    print(Fore.BLUE + """
+ .S_SSSs      sSSs   .S_sSSs     .S   .S_sSSs     .S   .S_sSSs     .S_SSSs    
+.SS~SSSSS    d%%SP  .SS~YS%%b   .SS  .SS~YS%%b   .SS  .SS~YS%%b   .SS~SSSSS   
+S%S   SSSS  d%S'    S%S   `S%b  S%S  S%S   `S%b  S%S  S%S   `S%b  S%S   SSSS  
+S%S    S%S  S%|     S%S    S%S  S%S  S%S    S%S  S%S  S%S    S%S  S%S    S%S  
+S%S SSSS%S  S&S     S%S    d*S  S&S  S%S    d*S  S&S  S%S    S&S  S%S SSSS%S  
+S&S  SSS%S  Y&Ss    S&S   .S*S  S&S  S&S   .S*S  S&S  S&S    S&S  S&S  SSS%S  
+S&S    S&S  `S&&S   S&S_sdSSS   S&S  S&S_sdSSS   S&S  S&S    S&S  S&S    S&S  
+S&S    S&S    `S*S  S&S~YSSY    S&S  S&S~YSY%b   S&S  S&S    S&S  S&S    S&S  
+S*S    S&S     l*S  S*S         S*S  S*S   `S%b  S*S  S*S    S*S  S*S    S&S  
+S*S    S*S    .S*P  S*S         S*S  S*S    S%S  S*S  S*S    S*S  S*S    S*S  
+S*S    S*S  sSS*S   S*S         S*S  S*S    S&S  S*S  S*S    S*S  S*S    S*S  
+SSS    S*S  YSS'    S*S         S*S  S*S    SSS  S*S  S*S    SSS  SSS    S*S  
+       SP           SP          SP   SP          SP   SP                 SP   
+       Y            Y           Y    Y           Y    Y                  Y 
+   
+                                                                                                          
+""" + Style.RESET_ALL)
+    print(Fore.LIGHTWHITE_EX + "xwitter: @Ghcjm60SUve6BMa" + Style.RESET_ALL)
+    print(Fore.LIGHTWHITE_EX + "github.com/oMaike" + Style.RESET_ALL)
+    
+    print("\nBem-vindo ao ASPIRINA !")
+    print("Escolha uma opção de encode abaixo:\n")
 
 def encode_base64(text):
     return base64.b64encode(text.encode()).decode()
@@ -23,6 +49,9 @@ def encode_hex(text):
     return ''.join([f'\\x{ord(char):02x}' for char in text])
 
 def main():
+    # Exibe o menu inicial
+    exibir_menu()
+
     # Solicita o payload XSS (ou qualquer texto) do usuário
     payload = input("Digite o payload XSS (ou qualquer texto): ")
 
