@@ -1,9 +1,6 @@
 # Payload-Encoder
 
-div align="center"
-img src="![Image](https://github.com/user-attachments/assets/8f8fd99a-c1d5-420f-908a-bbb8e769d2b0)" width="0px" /
-/div
-
+![Image](https://github.com/user-attachments/assets/8f8fd99a-c1d5-420f-908a-bbb8e769d2b0)
 
 
 
