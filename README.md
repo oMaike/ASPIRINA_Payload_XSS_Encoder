@@ -1,8 +1,8 @@
 # ASPIRINA
-[![Twitter](https://img.shields.io/twitter/follow/Ghcjm60SUve6BMa?style=social&logo=twitter)](https://twitter.com/Ghcjm60SUve6BMa)
+[![Twitter](https://img.shields.io/twitter/Ghcjm60SUve6BMa?style=social&logo=twitter)](https://twitter.com/Ghcjm60SUve6BMa)
 
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=social&logo=linkedin)](https://www.linkedin.com/in/maike-gabriel-rosa-876673282)
+[![LinkedIn](https://img.shields.io/LinkedIn-blue?style=social&logo=linkedin)](https://www.linkedin.com/in/maike-gabriel-rosa-876673282)
 
 
 
