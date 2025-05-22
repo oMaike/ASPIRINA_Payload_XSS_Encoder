@@ -14,35 +14,39 @@ Ferramenta completa para conversão de textos em múltiplos formatos de encoding
 git clone https://github.com/oMaike/aspirina.git && cd aspirina && pip install colorama && python3 aspirina.py
 
 📚 Como Usar o ASPIRINA - Guia Completo
-Aqui está um passo a passo detalhado para usar a ferramenta ASPIRINA:
 
 🚀 Inicialização
-Abra o terminal (Command Prompt no Windows, Terminal no macOS/Linux)
+
+Abra o terminal
 
 Navegue até a pasta onde salvou o script:
 
-bash
+```bash
 cd caminho/para/pasta
+
 Execute o script:
 
-bash
+```bash
 python aspirina.py
+
 🖥️ Interface do Usuário
+
 Ao executar, você verá:
 
 Um logo ASCII colorido do ASPIRINA
 
-Informações de contato (Twitter e GitHub)
-
 O prompt para inserir seu texto
 
 🔤 Inserindo o Texto
+
 Digite ou cole o texto que deseja codificar
 
 Digite o texto/payload: <script>alert('teste')</script>
+
 Pressione Enter
 
 🔢 Seleção de Encoding
+
 Você verá um menu com 6 opções:
 
 Escolha o encoding:
@@ -52,21 +56,28 @@ Escolha o encoding:
 4 - UTF-8 (Hex)
 5 - Unicode
 6 - Hex Encoding
-Opção: 
+
+Opção:
+ 
 Digite o número correspondente ao formato desejado e pressione Enter.
 
 💾 Resultados
+
 O script mostrará o texto codificado no formato escolhido:
 
 Resultado em Base64: PHNjcmlwdD5hbGVydCgndGVzdGUnKTwvc2NyaXB0Pg==
+
 🔄 Execução Contínua
+
 O script encerra após cada operação (por design)
 
 Para nova codificação, execute novamente:
 
 bash
 python aspirina.py
+
 💡 Dicas Avançadas
+
 Para Windows:
 
 Use py ou python no lugar de python3
@@ -75,11 +86,14 @@ Se tiver erro de cores, instale o colorama:
 
 cmd
 pip install colorama
+
 Automatização:
+
 Você pode pipear o texto diretamente:
 
 bash
 echo "seu texto" | python aspirina.py
+
 Exemplo Completo:
 
 bash
@@ -87,7 +101,9 @@ $ python aspirina.py
 Digite o texto/payload: <div>teste</div>
 Escolha o encoding: 3
 Resultado em HTML Entities: &lt;div&gt;teste&lt;/div&gt;
+
 ⚠️ Solução de Problemas
+
 Se vir erros de encoding, tente:
 
 Salvar o arquivo como UTF-8
@@ -100,7 +116,6 @@ Erros de módulos: instale as dependências:
 
 bash
 pip install colorama
-
 
 ✨ Recursos
 
