@@ -1,86 +1,62 @@
-# ASPIRINA
-[Twitter](https://twitter.com/Ghcjm60SUve6BMa)
+ASPIRINA - Ferramenta de Encoding Multifuncional
+Python
+License
+Platform
 
+🌟 Visão Geral
+ASPIRINA é uma ferramenta Python para conversão de textos em diversos formatos de encoding, ideal para desenvolvedores e profissionais de segurança.
 
-[LinkedIn](https://www.linkedin.com/in/maike-gabriel-rosa-876673282)
+python
+python3 aspirina.py
+✨ Recursos Principais
+Suporte a múltiplos encodings:
 
+Base64
 
+URL Encoding
 
-![Image](https://github.com/user-attachments/assets/8f8fd99a-c1d5-420f-908a-bbb8e769d2b0)
+HTML Entities
 
+UTF-8 (Hexadecimal)
 
+Unicode Encoding
 
-Codificador de Payloads XSS
+Hex Encoding
 
-Este é um programa em Python que permite codificar payloads XSS (ou qualquer texto) em diferentes formatos de encoding, como Base64, URL Encoding, HTML Entities, UTF-8 (Hexadecimal), Unicode Encoding e Hex Encoding. Ele foi projetado para ajudar a testar e entender como diferentes técnicas de codificação podem ser usadas em cenários de segurança, como bypass de filtros XSS.
+Interface amigável com menu interativo
 
-# Como Funciona
+Visualização colorida no terminal
 
-O programa solicita que o usuário insira um payload (ou qualquer texto) e, em seguida, oferece uma lista de opções de codificação. Dependendo da escolha do usuário, o payload é codificado no formato selecionado e o resultado é exibido na tela.
+Cross-platform (funciona em Windows, Linux e macOS)
 
-# Opções de Codificação
+📦 Pré-requisitos
+Python 3.6 ou superior
 
-O programa suporta as seguintes técnicas de codificação:
+Biblioteca colorama (instalada automaticamente)
 
-Base64: Codifica o texto em Base64.
+🛠️ Instalação
+bash
+# Clone o repositório
+git clone https://github.com/oMaike/aspirina.git
 
-Exemplo: <script>alert('XSS')</script> → 
-PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4=
+# Acesse o diretório
+cd aspirina
 
-URL Encoding: Codifica o texto para ser usado em URLs.
-
-Exemplo: <script>alert('XSS')</script> → 
-%3Cscript%3Ealert%28%27XSS%27%29%3C%2Fscript%3E
-
-HTML Entities: Converte caracteres especiais em entidades HTML.
-
-Exemplo: <script>alert('XSS')</script> → 
-&lt;script&gt;alert(&#x27;XSS&#x27;)&lt;/script&gt;
-
-UTF-8 (Hexadecimal): Converte o texto para sua representação hexadecimal em UTF-8.
-
-Exemplo: <script>alert('XSS')</script> → 
-3c7363726970743e616c657274282758535327293c2f7363726970743e
-
-Unicode Encoding: Converte cada caractere para seu valor Unicode.
-
-Exemplo: <script>alert('XSS')</script> → \u003c\u0073\u0063\u0072\u0069\u0070\u0074\u003e\u0061\u006c\u0065\u0072\u0074\u0028\u0027\u0058\u0053\u0053\u0027\u0029\u003c\u002f\u0073\u0063\u0072\u0069\u0070\u0074\u003e
-
-Hex Encoding: Converte cada caractere para seu valor hexadecimal.
-
-Exemplo: <script>alert('XSS')</script> → \x3c\x73\x63\x72\x69\x70\x74\x3e\x61\x6c\x65\x72\x74\x28\x27\x58\x53\x53\x27\x29\x3c\x2f\x73\x63\x72\x69\x70\x74\x3e
-
-# Como Usar
-
+# Instale as dependências
+pip install colorama
+💻 Como Usar
 Execute o programa:
 
-Salve o código em um arquivo, por exemplo, encoder.py
+bash
+python3 aspirina.py
+Digite o texto/payload que deseja codificar
 
-Execute o arquivo com Python:
+Escolha o tipo de encoding desejado
 
-# bash
-python encoder.py
+Copie o resultado da saída
 
-Insira o payload:
-
-O programa solicitará que você insira um payload XSS (ou qualquer texto).
-
-Exemplo de entrada:
-
-<script>alert('XSS')</script>
-Escolha a codificação:
-
-O programa exibirá uma lista de opções de codificação.
-Digite o número correspondente à técnica desejada.
-
-Veja o resultado:
-
-O programa exibirá o payload codificado no formato escolhido.
-
-# Exemplo de Uso
-
-Entrada:
-Digite o payload XSS (ou qualquer texto): <script>alert('XSS')</script>
+🎯 Exemplo de Uso
+Digite o payload XSS (ou qualquer texto): <script>alert('test')</script>
 
 Escolha o tipo de codificação:
 1 - Base64
@@ -90,27 +66,34 @@ Escolha o tipo de codificação:
 5 - Unicode Encoding
 6 - Hex Encoding
 
-Digite o número da opção desejada: 1
+Resultado em Base64: PHNjcmlwdD5hbGVydCgndGVzdCcpPC9zY3JpcHQ+
+⚠️ Aviso Legal
+Esta ferramenta é fornecida apenas para fins educacionais e de teste legítimo. O uso para atividades ilegais é estritamente proibído.
 
-Saída:
+📜 Licença
+Distribuído sob licença MIT. Veja o arquivo LICENSE para mais informações.
 
-Resultado em Base64: PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4=
+📬 Contato
+Twitter: @Ghcjm60SUve6BMa
 
-# Requisitos
+GitHub: github.com/oMaike
 
-Python 3.x
+markdown
+# Estrutura do Projeto
 
-# Aplicações
+aspirina/
+│   README.md
+│   aspirina.py
+│   LICENSE
+└── requirements.txt
+Você pode copiar este README.md diretamente para seu projeto. Ele inclui:
 
-Este programa pode ser útil para:
+Badges de status
 
-Testar técnicas de bypass de filtros XSS.
+Seções organizadas
 
-Entender como diferentes tipos de encoding funcionam.
+Instruções claras de instalação e uso
 
-Codificar strings para uso em contextos específicos (URLs, HTML, JavaScript, etc.).
+Exemplo prático
 
-# Observações
-Uso Ético: Este programa é destinado apenas para fins educacionais e de teste em ambientes controlados. Nunca use técnicas de XSS em sistemas reais sem permissão explícita.
-
-Personalização: Sinta-se à vontade para modificar o código para adicionar novas funcionalidades ou melhorar as existentes.
+Informações de contato e licença
