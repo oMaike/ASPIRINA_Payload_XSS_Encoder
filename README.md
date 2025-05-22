@@ -1,99 +1,60 @@
-ASPIRINA - Ferramenta de Encoding Multifuncional
-Python
-License
-Platform
+# 🔥 ASPIRINA - Ferramenta de Encoding Avançado
 
-🌟 Visão Geral
-ASPIRINA é uma ferramenta Python para conversão de textos em diversos formatos de encoding, ideal para desenvolvedores e profissionais de segurança.
+![Python](https://img.shields.io/badge/Python-3.6+-blue.svg) 
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)
 
-python
-python3 aspirina.py
-✨ Recursos Principais
-Suporte a múltiplos encodings:
+## 📌 Visão Geral
+Ferramenta completa para conversão de textos em múltiplos formatos de encoding, desenvolvida em Python com interface colorida e intuitiva.
 
-Base64
+✨ Recursos
+✅ 6 métodos de encoding diferentes
 
-URL Encoding
+🎨 Interface colorida com ASCII art
 
-HTML Entities
+🔄 Conversão rápida e eficiente
 
-UTF-8 (Hexadecimal)
+📋 Pronto para copiar e colar resultados
 
-Unicode Encoding
+🚀 Como Usar
+Instale as dependências:
 
-Hex Encoding
-
-Interface amigável com menu interativo
-
-Visualização colorida no terminal
-
-Cross-platform (funciona em Windows, Linux e macOS)
-
-📦 Pré-requisitos
-Python 3.6 ou superior
-
-Biblioteca colorama (instalada automaticamente)
-
-🛠️ Instalação
 bash
-# Clone o repositório
-git clone https://github.com/oMaike/aspirina.git
-
-# Acesse o diretório
-cd aspirina
-
-# Instale as dependências
 pip install colorama
-💻 Como Usar
-Execute o programa:
+Execute o script:
 
 bash
 python3 aspirina.py
-Digite o texto/payload que deseja codificar
+Siga as instruções no menu interativo
 
-Escolha o tipo de encoding desejado
-
-Copie o resultado da saída
-
-🎯 Exemplo de Uso
-Digite o payload XSS (ou qualquer texto): <script>alert('test')</script>
-
-Escolha o tipo de codificação:
-1 - Base64
-2 - URL Encoding
-3 - HTML Entities
-4 - UTF-8 (Hexadecimal)
-5 - Unicode Encoding
-6 - Hex Encoding
-
-Resultado em Base64: PHNjcmlwdD5hbGVydCgndGVzdCcpPC9zY3JpcHQ+
+🛠️ Opções de Encoding
+Código	Tipo	Exemplo de Saída
+1	Base64	VGVzdGUgMTIz
+2	URL Encoding	%3Cscript%3E
+3	HTML Entities	<script>
+4	UTF-8 (Hex)	7465737465
+5	Unicode	\u0074\u0065\u0073\u0074\u0065
+6	Hex Encoding	\x74\x65\x73\x74\x65
 ⚠️ Aviso Legal
 Esta ferramenta é fornecida apenas para fins educacionais e de teste legítimo. O uso para atividades ilegais é estritamente proibído.
 
 📜 Licença
-Distribuído sob licença MIT. Veja o arquivo LICENSE para mais informações.
+Distribuído sob licença MIT. Consulte o arquivo LICENSE para mais informações.
 
 📬 Contato
-Twitter: @Ghcjm60SUve6BMa
+Twitter: @yott4ma1k3
 
 GitHub: github.com/oMaike
 
-markdown
-# Estrutura do Projeto
+Nota: Para melhor experiência, execute em terminal com suporte a cores.
 
-aspirina/
-│   README.md
-│   aspirina.py
-│   LICENSE
-└── requirements.txt
-Você pode copiar este README.md diretamente para seu projeto. Ele inclui:
 
-Badges de status
+Este bloco único contém:
+1. Cabeçalho com badges
+2. Visão geral com código incorporado
+3. Lista completa de recursos
+4. Instruções de uso
+5. Tabela de referência rápida
+6. Informações legais e de contato
 
-Seções organizadas
-
-Instruções claras de instalação e uso
-
-Exemplo prático
-
-Informações de contato e licença
+Basta copiar todo este conteúdo e colar em seu arquivo README.md!
