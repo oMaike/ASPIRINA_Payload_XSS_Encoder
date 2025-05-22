@@ -7,6 +7,12 @@
 ## 📌 Visão Geral
 Ferramenta completa para conversão de textos em múltiplos formatos de encoding, desenvolvida em Python com interface colorida e intuitiva.
 
+## 📥 Instalação Rápida
+
+```bash
+# Copie e cole este comando no seu terminal:
+git clone https://github.com/oMaike/aspirina.git && cd aspirina && pip install colorama && python3 aspirina.py
+
 ✨ Recursos
 
 ✅ 6 métodos de encoding diferentes
@@ -18,18 +24,6 @@ Ferramenta completa para conversão de textos em múltiplos formatos de encoding
 📋 Pronto para copiar e colar resultados
 
 🚀 Como Usar
-
-Instale as dependências:
-
-bash
-pip install colorama
-
-Execute o script:
-
-bash
-python3 aspirina.py
-
-Siga as instruções no menu interativo
 
 🛠️ Opções de Encoding
 
