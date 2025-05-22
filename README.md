@@ -9,9 +9,8 @@ Ferramenta completa para conversão de textos em múltiplos formatos de encoding
 
 ## 📥 Instalação Rápida
 
-```bash
-# Copie e cole este comando no seu terminal:
-git clone https://github.com/oMaike/aspirina.git && cd aspirina && pip install colorama && python3 aspirina.py
+<button onclick="navigator.clipboard.writeText('git clone https://github.com/oMaike/aspirina.git && cd aspirina && pip install colorama && python3 aspirina.py')">Copiar Comando</button>
+
 
 ✨ Recursos
 
