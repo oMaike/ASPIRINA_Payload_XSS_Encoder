@@ -150,5 +150,3 @@ Este README inclui:
 4. Tabela de referência
 5. Informações legais e de contato
 6. Dicas de uso avançado
-
-Pronto para ser usado no seu repositório GitHub!
