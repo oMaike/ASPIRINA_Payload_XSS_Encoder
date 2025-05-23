@@ -22,7 +22,7 @@ SSS    S*S  YSS'    S*S         S*S  S*S    SSS  S*S  S*S    SSS  SSS    S*S
    
                                                                                                           
 """ + Style.RESET_ALL)
-    print(Fore.LIGHTWHITE_EX + "xwitter: @Ghcjm60SUve6BMa" + Style.RESET_ALL)
+    print(Fore.LIGHTWHITE_EX + "xwitter: @yott4ma1k3" + Style.RESET_ALL)
     print(Fore.LIGHTWHITE_EX + "github.com/oMaike" + Style.RESET_ALL)
     
     print("\nBem-vindo ao ASPIRINA !")
